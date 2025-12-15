@@ -1,0 +1,132 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>APT27 Profile</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+        <link rel="stylesheet" href="assets/css/main.css" />
+    </head>
+    <body class="no-sidebar is-preload">
+        <div id="page-wrapper">
+
+            <section id="header">
+                <h1><a href="index.html">Cyber Threat Intelligence</a></h1>
+                <nav id="nav">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="apt29.html">APT29</a></li>
+                        <li><a href="apt28.html">APT28</a></li>
+                        <li><a href="apt41.html">APT41</a></li>
+                        <li><a href="lazarus.html">Lazarus Group</a></li>
+                        <li><a href="apt10.html">APT10</a></li>
+                        <li class="current"><a href="apt27.html">APT27</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </section>
+
+            <section id="main">
+                <div class="container">
+                    <article class="box post">
+                        <a href="#" class="image featured"><img src="images/apt27.webp" alt="APT27" /></a>
+                        <header>
+                            <h2>APT27 (LuckyMouse / Emissary Panda)</h2>
+                            <p>China-linked cyber espionage group focused on strategic intelligence and intellectual property theft.</p>
+                        </header>
+
+                        <section>
+                            <header><h3>Overview</h3></header>
+                            <p>
+                                APT27 is a designation used for a long-running cluster of activity assessed to operate from China and tracked under names such as LuckyMouse, Emissary Panda, Iron Tiger, BRONZE UNION, and Threat Group-3390.
+                                Reporting associates the group with state-sponsored cyber espionage campaigns and, more recently, some profit-driven intrusions against commercial organizations.
+                            </p>
+                        </section>
+
+                        <section>
+                            <header><h3>Targets and objectives</h3></header>
+                            <p>
+                                APT27 has targeted organizations across North and South America, Europe, the Middle East, and Asia in sectors such as government, defense and aerospace, telecommunications, energy, manufacturing, high tech, research, and healthcare.
+                                Operations typically focus on stealing sensitive data, trade secrets, and intellectual property, supporting strategic and economic objectives.
+                            </p>
+                            <ul>
+                                <li>Defense, aerospace, and government agencies handling strategic programs.</li>
+                                <li>Telecommunications, energy, manufacturing, and high‑tech firms with valuable R&amp;D.</li>
+                                <li>Service providers, healthcare, education, and business services used as gateways to many downstream victims.</li>
+                            </ul>
+                        </section>
+
+                        <section>
+                            <header><h3>Tactics and techniques</h3></header>
+                            <p>
+                                APT27 frequently exploits internet-facing applications such as Microsoft Exchange and SharePoint, including high-profile vulnerabilities, to gain initial access and deploy web shells.
+                                After establishing a foothold, the group uses a mix of custom malware and living-off-the-land techniques for persistence, lateral movement, and data exfiltration over long dwell times.
+                            </p>
+                            <ul>
+                                <li>Use of custom malware families such as HyperBro, PlugX, ShadowPad, Mirage, and other remote access tools.</li>
+                                <li>Credential dumping and lateral movement with tools like Mimikatz, Impacket, and native administration utilities.</li>
+                                <li>Long-term data collection and exfiltration from key servers and business applications once access is stabilized.</li>
+                            </ul>
+                        </section>
+
+                        <section>
+                            <header><h3>Notable activity</h3></header>
+                            <p>
+                                Public reports describe APT27 using Exchange and SharePoint vulnerabilities to compromise industrial and government networks, install web shells, and exfiltrate trade secrets over many months.
+                                Sector alerts also highlight campaigns abusing software such as Zoho ManageEngine ADSelfService Plus to reach healthcare, defense, higher education, and consulting organizations.
+                            </p>
+                        </section>
+
+                        <section>
+                            <header><h3>Defensive tips</h3></header>
+                            <p>
+                                Recommended defenses include rapid patching of exposed services, strict hardening and monitoring of email and collaboration platforms, and active hunting for web shells and suspicious administrator activity on critical servers.
+                                Enriching detections with threat intelligence on APT27 infrastructure, malware families, and MITRE ATT&amp;CK techniques can help organizations identify related activity earlier in the intrusion lifecycle.
+                            </p>
+                        </section>
+                    </article>
+                </div>
+            </section>
+
+            <section id="footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-8 col-12-medium">
+                            <section>
+                                <header><h2>More APT profiles</h2></header>
+                                <ul class="dates">
+                                    <li><span class="date">APT <strong>29</strong></span><h3><a href="apt29.html">APT29</a></h3></li>
+                                    <li><span class="date">APT <strong>28</strong></span><h3><a href="apt28.html">APT28</a></h3></li>
+                                    <li><span class="date">APT <strong>41</strong></span><h3><a href="apt41.html">APT41</a></h3></li>
+                                    <li><span class="date">APT <strong>10</strong></span><h3><a href="apt10.html">APT10</a></h3></li>
+                                    <li><span class="date">APT <strong>27</strong></span><h3><a href="apt27.html">APT27</a></h3></li>
+                                </ul>
+                            </section>
+                        </div>
+                        <div class="col-4 col-12-medium">
+                            <section>
+                                <header><h2>References</h2></header>
+                                <a href="#" class="image featured"><img src="images/cti-ref.jpg" alt="" /></a>
+                                <p>Summary based on public reporting about APT27 / LuckyMouse / Emissary Panda and related campaigns.</p>
+                            </section>
+                        </div>
+                        <div class="col-12">
+                            <div id="copyright">
+                                <ul class="links">
+                                    <li>&copy; Ryan Kim.</li><li>Theme base: HTML5 UP Dopetrope</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </div>
+
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/jquery.dropotron.min.js"></script>
+        <script src="assets/js/browser.min.js"></script>
+        <script src="assets/js/breakpoints.min.js"></script>
+        <script src="assets/js/util.js"></script>
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>

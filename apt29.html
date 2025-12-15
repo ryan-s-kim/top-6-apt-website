@@ -1,0 +1,135 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>APT29 Profile</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+        <link rel="stylesheet" href="assets/css/main.css" />
+    </head>
+    <body class="no-sidebar is-preload">
+        <div id="page-wrapper">
+
+            <!-- Header -->
+            <section id="header">
+                <h1><a href="index.html">Cyber Threat Intelligence</a></h1>
+                <nav id="nav">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li class="current"><a href="apt29.html">APT29</a></li>
+                        <li><a href="apt28.html">APT28</a></li>
+                        <li><a href="apt41.html">APT41</a></li>
+                        <li><a href="lazarus.html">Lazarus Group</a></li>
+                        <li><a href="apt10.html">APT10</a></li>
+                        <li><a href="apt27.html">APT27</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </section>
+
+            <!-- main section -->
+            <section id="main">
+                <div class="container">
+                    <article class="box post">
+                        <a href="#" class="image featured"><img src="images/apt29.jpg" alt="APT29" /></a>
+                        <header>
+                            <h2>APT29 (Cozy Bear)</h2>
+                            <p>Russia-linked espionage group focused on governments and policy targets.</p>
+                        </header>
+
+                        <section>
+                            <header><h3>Overview</h3></header>
+                            <p>
+                                APT29, also called Cozy Bear and Midnight Blizzard, is associated in public reporting with Russian intelligence services.
+                                It is known for long-term, low-noise intrusions that aim to collect sensitive diplomatic and governmental information.
+                            </p>
+                        </section>
+
+                        <section>
+                            <header><h3>Targets and objectives</h3></header>
+                            <p>
+                                The group typically focuses on foreign ministries, embassies, research institutes, and policy organizations.
+                                Operations are usually geared toward strategic intelligence rather than quick financial gain.
+                            </p>
+                            <ul>
+                                <li>Government and diplomatic networks.</li>
+                                <li>Think tanks and policy research groups.</li>
+                                <li>Technology and cloud service providers supporting high-value organizations.</li>
+                            </ul>
+                        </section>
+
+                        <section>
+                            <header><h3>Tactics and techniques</h3></header>
+                            <p>
+                                Analysts often map APT29 behavior to ATT&amp;CK techniques like spearphishing, credential theft, and living off the land using built-in tools.
+                                In recent campaigns, the group has heavily abused cloud identities, OAuth applications, and legitimate remote access methods.
+                            </p>
+                            <ul>
+                                <li>Spearphishing emails and malicious links to capture credentials.</li>
+                                <li>Use of legitimate admin tools and PowerShell to blend into normal activity.</li>
+                                <li>Targeting cloud email and collaboration platforms for persistent access.</li>
+                            </ul>
+                        </section>
+
+                        <section>
+                            <header><h3>Notable activity</h3></header>
+                            <p>
+                                Public reports link APT29 to multiple campaigns against Western governments and international organizations, including compromises of email systems and identity infrastructure.
+                                Some intrusions used supply-chain-style access by abusing service providers to reach many downstream entities.
+                            </p>
+                        </section>
+
+                        <section>
+                            <header><h3>Defensive tips</h3></header>
+                            <p>
+                                Defenders often focus on hardening identity systems, enforcing multifactor authentication, and closely monitoring sign-in patterns to detect APT29-style activity.
+                                Mapping local controls to ATT&amp;CK techniques associated with APT29 helps identify detection and logging gaps.
+                            </p>
+                        </section>
+                    </article>
+                </div>
+            </section>
+
+            <!-- footer -->
+            <section id="footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-8 col-12-medium">
+                            <section>
+                                <header><h2>More APT profiles</h2></header>
+                                <ul class="dates">
+                                    <li><span class="date">APT <strong>28</strong></span><h3><a href="apt28.html">APT28 (Fancy Bear)</a></h3></li>
+                                    <li><span class="date">APT <strong>41</strong></span><h3><a href="apt41.html">APT41</a></h3></li>
+                                    <li><span class="date">APT <strong>10</strong></span><h3><a href="apt10.html">APT10</a></h3></li>
+                                    <li><span class="date">LG <strong>01</strong></span><h3><a href="lazarus.html">Lazarus Group</a></h3></li>
+                                    <li><span class="date">APT <strong>27</strong></span><h3><a href="apt27.html">APT27</a></h3></li>
+                                </ul>
+                            </section>
+                        </div>
+                        <div class="col-4 col-12-medium">
+                            <section>
+                                <header><h2>References</h2></header>
+                                <a href="#" class="image featured"><img src="images/cti-ref.jpg" alt="" /></a>
+                                <p>Details are summarized from public reporting and MITRE ATT&amp;CK APT29 documentation.</p>
+                            </section>
+                        </div>
+                        <div class="col-12">
+                            <div id="copyright">
+                                <ul class="links">
+                                    <li>&copy; Ryan Kim.</li><li>Theme base: HTML5 UP Dopetrope</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </div>
+
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/jquery.dropotron.min.js"></script>
+        <script src="assets/js/browser.min.js"></script>
+        <script src="assets/js/breakpoints.min.js"></script>
+        <script src="assets/js/util.js"></script>
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
